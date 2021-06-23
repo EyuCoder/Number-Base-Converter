@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="result_text" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:text">0</item>
+        <item name="android:layout_width">175dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">45dp</item>
+        <item name="android:minHeight">45dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="icon">@drawable/ic_copy</item>
+    </style>
+
+    <style name="keyboardLayoutStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>
